@@ -20,7 +20,7 @@ def highest_exponent(num, base):
             return exp
         exp += 1
 
-def encode_from_dec(num, base, reversed_dict):
+def encode_from_dec(num, base, reversed_dict):  #
     num = int(num)
     num_encoded = ''
     exp = highest_exponent(num, base)
